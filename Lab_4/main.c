@@ -1,4 +1,4 @@
-UIDAI#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int n,m,i,j,next;
