@@ -39,7 +39,7 @@ int findFirst(char prod[][10], char first[],char c,int n){
           first[first_count++]=prod[i][2];
           return -1;
         }
-        if(islower(prod[i][2]))
+        if(!isupper(prod[i][2]))
           first[first_count++]=prod[i][2];
       else if(isupper(prod[i][2])){
         int j=2;
